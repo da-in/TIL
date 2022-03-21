@@ -20,3 +20,11 @@ axios.get('https://api.themoviedb.org/3/trending/all/week')
 ### Axios 인스턴스화 하는 이유
 
 - 중복된 부분을 계속 입력하지 않아도 되기 때문이다.
+
+### Axios 인스턴스 만드는 순서
+
+1. src 폴더 내에 인스턴스를 생성할 폴더와 파일 생성
+
+- api
+  - axios.js
+  - requests.js
