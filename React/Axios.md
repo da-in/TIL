@@ -26,5 +26,5 @@ axios.get('https://api.themoviedb.org/3/trending/all/week')
 1. src 폴더 내에 인스턴스를 생성할 폴더와 파일 생성
 
 - api
-  - axios.js
-  - requests.js
+  - axios.js : 반복되는 BaseURL과 API 사용자 Key 등을 인스턴스화
+  - requests.js : 하위 다양한 경로들을 입력해두어 사용
