@@ -42,10 +42,18 @@ s = 'world';
 
 <br/>
 
-> 타입을 직접 명시하지 않고 var로 대체할 수 있는 타입추론을 지원한다.
+> 타입을 직접 명시하지 않고 var로 대체할 수 있는 `타입추론`을 지원한다. 타입추론에 의해 함수 정의시에도 `반환타입` 지정을 생략할 수 있다.
 
 ```
 var i = 10; //int
+
+void func(String hello){
+    print('$hello world');
+}
+
+func(String hello){
+    print('$hello world');
+} //위 코드와 동일하다
 ```
 
 <br/>
