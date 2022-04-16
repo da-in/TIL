@@ -69,16 +69,19 @@ final name = 'dain';
 
 ## function
 
-Dart는 일반적인 형태의 함수 이외에도 익명함수와 람다표현식 등을 사용할 수 있다.
+Dart는 일반적인 형태의 함수 이외에도 익명함수와 람다표현식 등을 사용할 수 있다.  
+<br/>
 
-> 익명 함수(anonymous function)
+### 익명 함수(anonymous function)
 
 ```
 ([argument]){[expression]}
 (number){number % 2 == 0;}
 ```
 
-> 람다식(lambda)
+<br/>
+
+### 람다식(lambda)
 
 ```
 ([argument]) => [expression]
