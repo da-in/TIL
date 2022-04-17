@@ -1,4 +1,20 @@
+> 오준석의 플러터 생존코딩(한빛미디어) | 책을 읽으며 정리한 내용입니다. 책 정보 바로가기 [오준석의 플러터 생존코딩(한빛미디어)](https://www.hanbit.co.kr/store/books/look.php?p_code=B9770627589)
+
 # class
+
+클래스 객체(인스턴트) 생성(인스턴스화)
+
+```
+class Person {
+    String name;
+    int age;
+}
+
+var person = new Person();
+var person = Person(); //new 생략 가능
+```
+
+## static
 
 클래스 메소드에서 static 키워드를 붙이면 최상위 함수처럼 사용할 수 있다.
 
